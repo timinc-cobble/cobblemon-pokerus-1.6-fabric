@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "us.timinc.mc.cobblemon.pokerus.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CobblemonMixin"
+  ],
+  "client": [
+    "StatWidgetMixin"
+  ],
+  "server": []
+}

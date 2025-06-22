@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pokerus",
+  "version": "1.6-fabric-0.0.0",
+  "name": "Pokerus",
+  "description": "What if your Pokémon could get sick, but it was actually a good thing?",
+  "authors": [
+    "timinc aka Timothy Metcalfe"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "us.timinc.mc.cobblemon.pokerus.PokerusMod"
+      }
+    ]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.1",
+    "fabric": "*",
+    "cobblemon": ">=1.6.0 <1.7.0"
+  },
+  "mixins": [
+    "mixins.pokerus.json"
+  ]
+}
